@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbero - We will make the style of your dreams</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/44fc62139d.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@800&family=Poppins:wght@400&display=swap" rel="stylesheet">
+    </head>
+<body>
+
+    <header>
+        <div class="header-div">
+            <nav>
+                <div class="navbar">
+                    <h1>Barbershop</h1>
+
+                <div class="dropdown-menu">
+                    <btn class="dropdown-btn">Menu</btn>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Pricing</a></li>
+                            <li><a href="">Gallery</a></li>
+                            <li><a href="">Team</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>        
+                </div>
+                </div> 
+            </nav>
+      
+        
+            <div>
+                <div class="header-text"> 
+                    <h2 class="welcome">Welcome to Barbershop</h2>
+                    <h2 class="dream-style-header">We will make <span class="your-style">your style</span> of your dreams</h2>
+                    <div class="header-info">A small river named Duden flows by their place
+                        Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.
+                    </div>
+                    <button class="learn">Learn more about us</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section class="services">
+            <div class="box1">
+                <img src="assets/shave.png" alt="a beard being shaved" />
+                <h3>Hair styles</h3>
+                <p>A small river named Duden flows by their place
+                    Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.
+                </p>
+            </div>
+            <div class="box2">
+                <img src="assets/shave-back.png" alt="the back of a head being shaved" />
+                <h3>Beard trim</h3>
+                <p>A small river named Duden flows by their place
+                    Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.
+                </p>
+            </div>
+            <div class="box3">
+                <img src="assets/shaving-beard.png" alt="a man laying down being shaved" />
+                <h3>Hot shave</h3>
+                <p>A small river named Duden flows by their place
+                    Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.
+                </p>
+            </div>
+            <div class="box4">
+                <img src="assets/mens-hair.png" alt="a man with white hair" />
+                <h3>Hair Schampoo</h3>
+                <p>A small river named Duden flows by their place
+                    Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.
+                </p>
+            </div>    
+        </section>
+
+        <section class="about">
+            <img src="assets/saloon.png" alt="man cutting hair in a barbershop">
+            <h2>About barber</h2>
+            <h3>A smooth barber experience in your town</h3>
+            <p>A small river named Duden flows by their place
+                Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.
+                The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word “and” and the Little Blind Text should turn around and return to its own, safe country.
+                A small river named Duden flows by their place
+                Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.
+            </p>
+
+            <div class="experience">
+                <img src="assets/calendar-icon.jpg" alt="calendar icon" class="calendar-icon">
+                <div class="twenty-yrs-exp">
+                    <span class="twenty">20</span>
+                    <span class="yrs-exp">years of <br> experience</span>
+                </div> 
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>Testimonials</h2>
+            <h3 class="testimonials-about">People say <br> about our barbers</h3>
+
+<!-- använda float i dessa boxarna? för text bredvid bild? Behöver någon slags karusell också i mobile för att swipea mellan -->
+
+            <div class="card a">
+                <div class="quotation-marks">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+
+                <div class="text a">
+                    <p>A small river named Duden flows by their place
+                    Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.
+                </p>
+                </div>
+
+                <div class="text-and-pic">
+                    <div class="man">
+                        <img src="assets/man1.png" alt="bearded man in gray suit" class="cust-pic" />
+                    </div>
+                    <div>
+                        <span>★★★★★</span> 
+                        <h4>Roger Scott</h4>
+                        <h6>customer</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card b">
+                <div class="quotation-marks">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+
+                <div class="text a">
+                    <p>A small river named Duden flows by their place
+                    Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.
+                </p>
+                </div>
+
+                <div class="text-and-pic">
+                    <div class="man">
+                        <img src="assets/man1.png" alt="bearded man in gray suit" class="cust-pic" />
+                    </div>
+                    <div>
+                        <span>★★★★★</span> 
+                        <h4>Roger Scott</h4>
+                        <h6>customer</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card c">
+                <div class="quotation-marks">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <div class="text a">
+                    <p>A small river named Duden flows by their place
+                    Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.
+                </p>
+                </div>
+
+                <div class="text-and-pic">
+                    <div class="man">
+                        <img src="assets/man1.png" alt="bearded man in gray suit" class="cust-pic" />
+                    </div>
+                    <div>
+                        <span>★★★★★</span> 
+                        <h4>Roger Scott</h4>
+                        <h6>customer</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="logos">
+            <div class="twitter">
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+        <h4>Info</h4>
+
+        <ul class="contact">
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Blog</a></li>
+        </ul>
+
+        <h4>Explore</h4>
+
+        <ul class="contact">
+            <li><a href="">Join us</a></li>
+            <li><a href="">Book appointment</a></li>
+            <li><a href="">Privacy & policy</a></li>
+            <li><a href="">Terms & conditions</a></li>
+        </ul>
+
+        <h4>Any questions?</h4>
+        <div class="contact">
+            <i class="fa-solid fa-map"></i>
+            <a href="">203 Fake St. Mountain, San Fransisco, California, USA</a><br>
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+(423) 508-8201">+(423) 508-8201</a><br>
+            <i class="fa-solid fa-paper-plane"></i>
+            <a type href="mailto:">info@yourdomain.com</a>    
+        </div>
+       
+    </footer>
+
+</body>
+</html>
