@@ -170,7 +170,7 @@ li.a-menu{
 /* HEADER-PIC */
 
 .header-div{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.7)) , url('../assets/header-pic.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.7)) , url('./assets/header-pic.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -237,6 +237,7 @@ li.a-menu{
 button.learn:hover{
     color:var(--dark-gold);
     background-color:#FFFFFF;
+    cursor: pointer;
         }
 
         /* mediascreen för textrutorna */
